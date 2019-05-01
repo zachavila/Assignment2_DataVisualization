@@ -1,0 +1,56 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CIS 468 Assignment #2</title>
+    <style type="text/css">
+        #cent,#cents{ position: relative;
+            right: -230px;}
+        svg{ width: 100%; height: 100%; }
+        #info{
+            display:flex
+        }
+        div.left {
+            color: red;
+            border-radius: 12px;
+            text-align: left;
+            border-style: solid;
+            border-color: black;
+            width:fit-content;
+
+
+        }
+
+        div.right {
+            font-weight: lighter;
+            font-style: italic;
+            text-align: right;
+            flex:1;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+<div id="info">
+    <div class="left">
+        <h1> Name: Zachary Avila</h1>
+        <h2>Student ID: 01555278</h2>
+    </div>
+    <div class="right">
+        <h3>Data Visualization (CIS 468)</h3>
+        <h4>Assignment 2</h4>
+    </div>
+</div>
+<!-- Info goes here -->
+
+<h1 id = "cent">Bar Chart</h1>
+
+<div id="bar"></div>
+
+<h1 id = "cents">Stacked Bar Chart</h1>
+
+<div id="stacked"></div>
+
+<!-- Make sure everything is loaded before defining JavaScript. -->
+
+</body>
+<script type="text/javascript" src="a2.js"></script>
+
+</html>
